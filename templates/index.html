@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>placement</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <h2>Placement Salary Prediction</h2>
+    <form action="/s" method="post">
+        <label>Gender</label><br>
+        <select name="gender" id="first">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br>
+        <label>Class 10 %</label><br>
+        <input name="10" id="second">
+        <br>
+        <label>Class 12 %</label><br>
+        <input name="12" id="third">
+        <br>
+        <label>Degree % </label><br>
+        <input name="degree" id="fourth">
+        <br>
+        <label>Class 12 stream</label><br>
+        <select id="fifth" name="stream">
+            <option value="Science">Science</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Arts">Arts</option>
+        </select>
+        <br>
+        <label>Field of Undergrad Degree</label><br>
+        <select id="sizth" name="undergrad">
+            <option value="Comm&Mgmt">Comm&Mgmt</option>
+            <option value="Sci&Tech">Sci&Tech</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <label>Work Experience </label><br>
+        <select name="workex" id="seventh">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+
+        <label>Employability Test % </label><br>
+        <input name="emptest" id="eighth">
+        <br>
+        <label>Specialization</label><br>
+        <select name="special" id="ninth">
+            <option value="Mkt&HR">Mkt&HR</option>
+            <option value="Mkt&Fin">Mkt&Fin</option>
+        </select>
+        <br>
+        <label>Status</label><br>
+        <select name="status" id="'tenth">
+            <option value="Placed">Placed</option>
+            <option value="Not Placed">Not Placed</option>
+        </select>
+        <br>
+        <button type="submit" value="Submit">Calculate the Salary</button>
+
+    </form>
+
+    <h3>{{ text }}</h3>
+</body>
+
+</html>
